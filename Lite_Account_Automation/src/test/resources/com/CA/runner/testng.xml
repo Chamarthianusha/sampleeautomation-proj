@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Identity Website suite" parallel="classes">
+<listeners>
+		<listener class-name="CA.listeners.ExtentReporterNG" />
+		 <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <listener class-name="CA.listeners.CustomListeners" />
+</listeners>
+
+	<test  thread-count="10" name="Email subscription page test">
+		<parameter name ="browser" value="chrome"/>
+		<classes>
+			<class name="Testcases.Email_SubscriptionPageTestCases"/>
+		</classes>
+	</test>
+
+	<test  thread-count="10" name="Communication preferences page test">
+		<parameter name ="browser" value="chrome"/>
+		<classes>
+			<class name="Testcases.Communication_PreferencesPageTestcases"/>
+		</classes>
+	</test><!---->
+
+	<!--<test thread-count="10" name="Account Pages Test">
+		<parameter name ="browser" value="chrome"/>
+		<classes>
+			<class name="Testcases.AccountPageTestCases"/>
+		</classes>
+	</test>-->
+
+</suite> <!-- Suite -->
+

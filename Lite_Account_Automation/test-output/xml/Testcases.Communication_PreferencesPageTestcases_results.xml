@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Communication preferences page test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="164.276">
+  <properties />
+  
+  
+            <testcase name="verifycommunicationpreferencesforNoaccountTest" time="12.555" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifyUnsubscribeallbtnTest" time="24.921" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifycommunicationpreferencesforliteaccountTest" time="12.485" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifycommunicationpreferencesloginTest" time="28.332" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifycommunicationpreferencesforCricketIdTest" time="40.667" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifyUnsubscribes_by_unchecking_boxTest" time="16.110" classname="Testcases.Communication_PreferencesPageTestcases" />
+                <testcase name="verifysubscribes_by_checking_boxTest" time="29.206" classname="Testcases.Communication_PreferencesPageTestcases" />
+      
+</testsuite>

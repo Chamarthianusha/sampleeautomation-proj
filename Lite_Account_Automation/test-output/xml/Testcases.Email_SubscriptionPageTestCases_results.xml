@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Email subscription page test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="54.254">
+  <properties />
+  
+  
+            <testcase name="verifyemailsubscriptionregTest" time="18.708" classname="Testcases.Email_SubscriptionPageTestCases" />
+                <testcase name="verifyerrormessageonemailsubscriptionregTest" time="9.597" classname="Testcases.Email_SubscriptionPageTestCases" />
+                <testcase name="verifycommunicationpreferencesloginTest" time="25.949" classname="Testcases.Email_SubscriptionPageTestCases" />
+      
+</testsuite>

@@ -1,0 +1,11 @@
+CA\Pages\AccountPage.class
+CA\utilities\ExcelReader.class
+CA\listeners\ExtentReporterNG.class
+CA\utilities\Utilities.class
+CA\base\BaseClass.class
+CA\Pages\Email_SubscriptionPage.class
+CA\utilities\ExtentManager.class
+CA\utilities\TestConfig.class
+CA\listeners\CustomListeners.class
+CA\Pages\Communication_PreferencesPage.class
+CA\utilities\MonitoringMail.class
